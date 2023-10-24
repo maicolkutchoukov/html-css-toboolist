@@ -9,8 +9,10 @@
 }
 
 ul, ol{
-    padding-left: 18px;
+    padding-left: 5px;
     list-style: none;
+    margin-bottom: 30px;
+
 }
 
 /* HEADER */
@@ -58,6 +60,12 @@ button{
     margin-bottom: 2px;
 }
 
+.list-container{
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 #task{
     border: 1px solid #47ADF1;
     color: white;
@@ -66,11 +74,85 @@ button{
 }
 
 #selection{
-    border: 1px solid grey;
-    color:grey;
+    border: 1px solid #CCD2D6;
+    color:#CCD2D6;
     background-color: white;
 }
 
 .list-container{
     background-color: white;
+}
+
+span{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.not-check{
+    color: red;
+    border: 1px solid red;
+}
+
+li{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+.status{
+    display: inline-block;
+    /* border: 1px solid #45ABEA; */
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    /* background-color: #45ABEA; */
+    font-size: 12px;
+    width: 80px;
+    text-align: center;    
+}
+
+.editorial{
+    border: 1px solid #45ABEA;
+    background-color: #45ABEA;
+}
+
+.q1{
+    background-color: #9C72E4;
+    border: 1px solid #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+    border: 1px solid #F29E33;
+}
+
+.website{
+    background-color: #D863A1;
+    border: 1px solid #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
+    border: 1px solid #B0C926;
 }
